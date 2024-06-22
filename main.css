@@ -1,0 +1,252 @@
+body {
+    background-color: #0b0e21;
+    font-family: "Roboto";
+    color: white;
+}
+
+p {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+textarea.materialize-textarea {
+    color: white;
+    padding-left: 7px;
+}
+
+.select-wrapper input.select-dropdown {
+    color: white;
+    font-size: 14.5px;
+    padding-left: 10px;
+}
+
+input[type=text]:not(.browser-default) {
+    color: white;
+    padding-left: 7px;
+}
+
+#mainpage {
+    display: none;
+}
+
+.clubs {
+    padding: 0 80px;
+    text-align: center;
+}
+
+.errorpage {
+    display: none;
+    text-align: center;
+    padding: 40px;
+}
+
+.modal-background {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 2;
+}
+
+.modal {
+    top: 30px;
+    display: block;
+    z-index: 2;
+    background-color: #010310;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #1b2133;
+    padding: 10px;
+    max-height: none;
+}
+
+.modal .modal-footer {
+    background-color: #010310;
+}
+
+.input-field {
+    width: 80%;
+    margin-top: 30px;
+    color: white;
+}
+
+#topicsSel {
+    width: 30%;
+}
+
+.cards {
+    width: 280px;
+    background-color: #010310;
+    margin: 15px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #28304b;
+    border-radius: 5px;
+    display: inline-block;
+    align-self: center;
+}
+
+.card .card-content {
+    padding: 15 15px;
+    text-align: center;
+    background-color: #010310;
+    color: #9299b2;
+}
+
+.card .card-content .card-title {
+    margin-bottom: 12px;
+    color: white;
+    font-weight: 450;
+}
+
+.description {
+    height: 65px;
+    overflow: scroll;
+}
+
+.card {
+    background-color: #010310;
+    border-width: 20px;
+    border-color: white;
+    margin: 0px;
+}
+
+.button1 {
+    color: red;
+    font-weight: 300;
+    margin-right: 10px;
+    padding: 0 10px;
+    z-index: 0;
+}
+
+.addclub {
+    color: #5193d5;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    padding: 40px;
+}
+
+.profile {
+    position: fixed;
+    font-size: 18px;
+    padding: 5 20px;
+    padding-right: 0px;
+    width: auto;
+    z-index: 1;
+    float: right;
+    right: 0px;
+}
+
+.card .card-action {
+    text-align: center;
+    padding: 10px;
+}
+
+.topicDiv {
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.chip {
+    cursor: default;
+    background-color: #010310;
+    border-color: #28304b;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 9px;
+    height: 20px;
+    line-height: 18px;
+    margin: 8 8px;
+    margin-right: 0px;
+    padding-left: 5px;
+    font-weight: 300;
+}
+
+.chip:hover {
+    background-color: #1a1c28;
+}
+
+.dot {
+    height: 10px;
+    width: 5px;
+    border-radius: 100%;
+    display: inline-block;
+    margin: 3.5 0px;
+    margin-right: 6px;
+}
+
+.leave {
+    color: red;
+    font-weight: 300;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.back {
+    color: #3F72AF;
+    font-weight: 300;
+    margin-left: 30px;
+    font-size: 16px;
+    position: relative;
+}
+
+.messageBtn {
+    color: #3F72AF;
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.message {
+    background-color: #192042;
+    width: 95%;
+    color: white;
+    padding: 20px;
+    margin: 30px;
+}
+
+.messageHead {
+    color: #9299b2;
+}
+
+.messageContent {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.messageDate {
+    text-align: right;
+    color: #9299b2;
+}
+
+.Business {background-color: #9900ff;}
+.Science {background-color: lime;}
+.Service {background-color: #e86bd1;}
+.Politics {background-color: skyblue;}
+.Creativity {background-color: #ff9900;}
+.Math {background-color: red;}
+.Culture {background-color: #ffd900;}
+.Sports {background-color: blue;}
+.Design {background-color: #00dacf;}
+.Speaking {background-color: #00a375;}
+
+.topic {
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
+    line-height: 12px;
+    content: "\2022";
+}
+.select-wrapper .caret {
+    fill: white;
+}
+.select-wrapper input.select-dropdown:focus {
+    border-bottom: 1px solid white;
+}
